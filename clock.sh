@@ -34,6 +34,6 @@ while sleep 1; do date +%T; done \
 		y = int(yt + (p*0.9)*sin(s*pi2/60 - pi2/4))
 		printf "\033[" y ";" x "H" c
 	}
-	fflush stdout
+	fflush(stdout)
 }'
 
